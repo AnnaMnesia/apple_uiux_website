@@ -62,6 +62,7 @@ const HowItWorks = () => {
                 muted
                 autoPlay
                 ref={videoRef}
+                loop={true}
               >
                 <source src={frameVideo} type="video/mp4" />
               </video>
@@ -75,7 +76,7 @@ const HowItWorks = () => {
         <div className="hiw-text-container">
           <div className="flex flex-1 justify-center flex-col">
             <p className="hiw-text g_fadeIn">
-              A17 Pro is an entirely new class of iPhone chip that delivers our {" "}
+              A17 Pro is an entirely new class of iPhone chip that delivers our{" "}
               <span className="text-white">
                 best graphic performance by far
               </span>
@@ -83,7 +84,7 @@ const HowItWorks = () => {
             </p>
 
             <p className="hiw-text g_fadeIn mt-4">
-              Mobile {" "}
+              Mobile{" "}
               <span className="text-white">
                 games will look and feel so immersive
               </span>
